@@ -12,6 +12,7 @@
         </license>
     </licenses>
     <build>
+<finalName>jackie-github-test</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -34,7 +35,7 @@
             <password>admin</password>  
         <port>8081</port>
         <update>true</update>
-        <path>/githubtest</path>  
+        <path>/jackie-github-test</path>  
         </configuration>  
     </plugin>  
         </plugins>
