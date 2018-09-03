@@ -23,6 +23,18 @@
     <artifactId>tomcat7-maven-plugin</artifactId>
     <version>2.2</version>
 </plugin>
+    <plugin>  
+        <groupId>org.codehaus.mojo</groupId>  
+        <artifactId>tomcat-maven-plugin</artifactId>  
+        <version>1.1</version>  
+        <configuration>  
+        <url>http://18.182.158.168:8081/manager/html</url>  
+            <server>Tomcat</server>  
+            <username>admin</username>  
+            <password>admin</password>  
+            <ignorePackaging>true</ignorePackaging>    
+        </configuration>  
+    </plugin>  
         </plugins>
     </build>
     <dependencies>
